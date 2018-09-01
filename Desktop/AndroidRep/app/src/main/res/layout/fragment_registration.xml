@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Registration Form"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="User name "
+        android:id="@+id/user_name_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:id="@+id/user_lname_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DOB "
+        android:id="@+id/user_DOB_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Gender "
+        android:id="@+id/gender_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/user_email_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/user_pass_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ConfirmPassword"
+        android:id="@+id/user_confrm_pass_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        >
+    </EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:id="@+id/user_phone_txt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        >
+    </EditText>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/reg_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp" />
+
+
+
+</LinearLayout>
